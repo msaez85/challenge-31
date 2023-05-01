@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge 31</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>Formulario de Peliculas</h1>
+        <form id="form-peli">
+            <label for="titulo">Titulo:</label>
+            <input type="text" id="titulo" name="titulo"><br>
+
+            <label for="genero">Genero:</label>
+            <input type="text" id="genero" name="genero"><br>
+
+            <label for="anio">Año:</label>
+            <input type="text" id="anio" name="anio"><br>
+
+            <label for="synopsis">Synopsis:</label>
+            <textarea id="synopsis" name="synopsis"></textarea><br>
+
+            <button type="button" onclick="agregarpelis()">Agregar pelicula</button>
+            <button type="button" onclick="mostrarpelis()">Ver peliculas</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
